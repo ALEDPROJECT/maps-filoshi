@@ -1,3 +1,5 @@
+
+
 <iframe
   src="http://65.108.18.7:25935/"
   title="iframe Example 1"
@@ -5,7 +7,13 @@
   height="100%">
 </iframe>
 
-<style>
+<script>
+  frame.open();
+  frame.write(html);
+  frame.close();
+</script>
+
+<!-- <style>
     html, body {
         margin: 0px;
         padding: 0px;
@@ -19,4 +27,4 @@
         border-radius: 5px;
         border: none;
     }
-</style>
+</style> -->
